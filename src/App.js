@@ -1,12 +1,14 @@
 import React from 'react';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import './App.css';
+import Watch from './stopwatch';
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <>
+      {/* <Navbar /> */}
+      <Watch/>
+    </>
   );
 };
 
