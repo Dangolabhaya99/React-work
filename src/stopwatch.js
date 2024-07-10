@@ -25,6 +25,9 @@ class Watch extends Component {
         if (this.intervalId) {
             clearInterval(this.intervalId);
             this.intervalId = null;
+            this.setState({
+                time:0,
+            })
         }
     }
 
